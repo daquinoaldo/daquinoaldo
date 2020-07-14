@@ -1,0 +1,23 @@
+name: Build README
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '57 1 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: denolib/setup-deno@v2
+        with:
+          deno-version: 1.x
+      - run: deno run --allow-net=api.rss2json.com --allow-read=. --allow-write=. build.ts
+      - name: Commit and push
+        run: |-
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update README" || exit 0  # prevent fail
+          git push
