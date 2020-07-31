@@ -2,12 +2,13 @@
 
 <!-- ABOUT_START -->
 📌 &nbsp; Tuscany, Italy  
-🎓 &nbsp; ICT Solution Architect, Pisa University  
+🎓 &nbsp; ICT Solution Architect @ Pisa University, graduated with honors  
 🤹 &nbsp; Public speaker, organized team leader, open-source developer
 
 I like finding out new things, trying new languages and discovering new technologies.  
 I love developing web applications, my favorite combo is TypeScript + Node.js + Docker.  
 Currently I'm interested in Kubernetes, Go, web performances and Deno.
+
 <!-- ABOUT_END -->
 
 💬 &nbsp; You can ask me a question through [GitHub issues](https://github.com/daquinoaldo/daquinoaldo/issues/new?&template=ask-a-question.md)
