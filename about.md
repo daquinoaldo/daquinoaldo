@@ -1,5 +1,5 @@
 📌 &nbsp; Tuscany, Italy  
-🎓 &nbsp; ICT Solution Architect, Pisa University  
+🎓 &nbsp; ICT Solution Architect @ Pisa University, graduated with honors  
 🤹 &nbsp; Public speaker, organized team leader, open-source developer
 
 I like finding out new things, trying new languages and discovering new technologies.  
