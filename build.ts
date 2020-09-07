@@ -51,11 +51,11 @@ let readme = await readFile("README.md")
 
 // update the about section
 const about = await readFile("about.md")
-readme = readme.replace(/(?<=<!-- ABOUT_START -->\n)(.*?)(?=\n*<!-- ABOUT_END -->)/s, about)
+readme = readme.replace(/(?<=<!-- ABOUT_START -->)(.*?)(?=<!-- ABOUT_END -->)/s, `\n${about}\n`)
 
 // update the Medium posts
 const posts = await getPosts()
-readme = readme.replace(/(?<=<!-- MEDIUM_POSTS_START -->\n)(.*?)(?=\n*<!-- MEDIUM_POSTS_END -->)/s, posts)
+readme = readme.replace(/(?<=<!-- MEDIUM_POSTS_START -->)(.*?)(?=<!-- MEDIUM_POSTS_END -->)/s, `\n${posts}\n`)
 
 // write back the files
 writeFile("README.md", readme)
