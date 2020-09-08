@@ -14,7 +14,9 @@ jobs:
       - uses: denolib/setup-deno@v2
         with:
           deno-version: 1.x
-      - run: deno run --allow-net=api.rss2json.com --allow-read=. --allow-write=. build.ts
+      - run: deno run --allow-env --allow-read=. --allow-write=. --allow-net=api.rss2json.com,api.github.com build.ts
+        env:
+          GH_API_TOKEN: ${{ secrets.GH_API_TOKEN }}
       - name: Commit and push
         run: |-
           git config --global user.name "github-actions[bot]"
