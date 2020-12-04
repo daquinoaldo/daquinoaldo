@@ -10,8 +10,6 @@ I love developing web applications, my favorite combo is TypeScript + Node.js + 
 Currently I'm interested in Kubernetes, Go, web performances and Deno.
 <!-- ABOUT_END -->
 
-💬 &nbsp; You can ask me a question through [GitHub issues](https://github.com/daquinoaldo/daquinoaldo/issues/new?&template=ask-a-question.md)
-
 ### Latest posts on [Medium](https://medium.com/@daquinoaldo) 📝
 <!-- MEDIUM_POSTS_START -->
 <table><tr><td valign="top">
