@@ -1,0 +1,8 @@
+{
+  "fmt": {
+    "semiColons": false
+  },
+  "tasks": {
+    "build": "deno run --allow-net=api.rss2json.com --allow-read=. --allow-write=. build.ts"
+  }
+}
