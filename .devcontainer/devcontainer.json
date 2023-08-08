@@ -1,0 +1,15 @@
+// https://aka.ms/devcontainer.json
+{
+  "containerUser": "vscode",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "denoland.vscode-deno",
+        "DavidAnson.vscode-markdownlint",
+        "redhat.vscode-yaml"
+      ]
+    }
+  },
+  "dockerFile": "Dockerfile",
+  "name": "daquinoaldo"
+}
